@@ -78,5 +78,5 @@ tidy_data  <- aggregate(. ~subjectId + activityId, Data, mean)
 
 write.table(tidy_data, "tidy_data.txt", row.names = FALSE, quote = FALSE)
 
-
+This file is under UCI HAR Dataset folder
 
